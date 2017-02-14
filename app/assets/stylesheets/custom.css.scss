@@ -16,6 +16,7 @@
 
 .user-name{
   padding-top: 15px;
+  color: #777 ;
 }
 
 .nav.navbar-right li{
@@ -27,3 +28,51 @@
     background-color: darken(#d9534f, 20%) !important;
   }
 } 
+
+.navbar-static-top{
+  background-color: #303030;
+  border-bottom: none;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #303030; // Choose your own color here
+   color: #000;
+   border: none;
+ }
+ 
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+   border: none;
+ }
+ 
+.table thead > tr > th {
+  border-bottom: none;
+}
+
+
+.panel-body{
+  background-color: #515151;
+}
+
+.panel{
+  border: none;
+  background-color: #515151;
+}
+
+.panel-heading{
+  background-color: #515151 !important;
+  border: none;
+}
+
+.form-control{
+  background-color: #505050;
+  color: #333;
+  border: #000;
+  border-radius: 0px;
+  outline: none;
+}
+
+.form-control:focus{
+  box-shadow: none;
+}
