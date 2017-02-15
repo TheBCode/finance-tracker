@@ -1,3 +1,9 @@
+body{
+  background-color: #515151 !important;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
 .results-block {
   display: inline-block;
 }
@@ -34,6 +40,10 @@
   border-bottom: none;
 }
 
+a:hover{
+  color: #BDBDBD !important;
+}
+
 .table-striped>tbody>tr:nth-child(odd)>td, 
 .table-striped>tbody>tr:nth-child(odd)>th {
    background-color: #303030; // Choose your own color here
@@ -67,12 +77,15 @@
 
 .form-control{
   background-color: #505050;
-  color: #333;
+  color: #D1D1D1;
   border: #000;
   border-radius: 0px;
   outline: none;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .form-control:focus{
   box-shadow: none;
 }
+
